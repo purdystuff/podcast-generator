@@ -1,12 +1,12 @@
-name: Podcast Generator
-author: Justin Donner
-description: Generates a feed for a Podcast
+name: "Podcast Generator"
+author: "Justin Donner"
+description: "Generates a feed for a Podcast"
 runs:
-  using: docker
-  image: Dockerfile
+  using: "docker"
+  image: "Dockerfile"
 branding:
-  icon: git-branch
-  color: red
+  icon: "git-branch"
+  color: "red"
 inputs: 
   email:
     description: "The comitter's email address"
